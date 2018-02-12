@@ -1,18 +1,9 @@
 <?php 
 
-/*
-
-Programmer
- < Munir > @wonds1
-~~~~~~~~~~~~
-Aides developer
-« Mohammed » @vps_1
- « zahrra » @devzahraa
-Channel = @super_api
-*/
 ob_start();
-$API_KEY = '399769987:AAGDSwBcKVPkkGKqCuV8j4NPRWw6O2KhxNU'; //add your bot token
-$bot_ = "k_8bot";
+$API_KEY = '525250686:AAEAjW4RQUEUjQNb96t_WpQ_ClOFelOCnBk
+'; //add your bot token
+$bot_ = "safe_test_bot";
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
