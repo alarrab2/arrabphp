@@ -1,0 +1,20 @@
+{
+  "name": "arrabphp",
+  "description": "alarrab",
+  "scripts": {
+    "postdeploy": "a.g bin/setup",
+    "pr-predestroy": "a.g bin/teardown"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/alarrab2/arrabphp"
+    }
+  ]
+}
